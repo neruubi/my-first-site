@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+
+body{
+
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    width: 100%;
+ }
+.header{
+    display: flex;
+    margin: 27px;
+    width: 1440px ;
+    font-size: 18px;
+}
+.logo {
+    margin-left: 97px;
+    text-align: center;
+    width: 200px;
+}
+ 
+.header_section{
+justify-content: space-between;
+display: flex;
+margin-left: 340px;
+max-width: 300px;
+}
+.header_icons{
+  display: flex;
+  margin-left: 310px;
+}
+.header_pic:not(:last-child){
+    margin-right: 30px;
+}
+.header_item:not(last-child){
+    margin-right: 50px;
+
+}
+
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+.main_text{
+ max-width: 616px;
+ margin: 97px;
+ max-height: 232px;
+ 
+}
+
+.text_1{
+    text-align: left;
+    font-size: 28px;
+}
+
+.text_2 p{
+    font-size: 100px;
+    margin: 0px;
+    line-height: 116px;
+}
+
+.text_3{
+    font-size: 28px;
+}
+
+.men{
+ text-align: right;
+ height: 532px;
+ width: 493px;
+}
+
+.main_xd{
+    display: flex;
+}
+
+.xdxd{
+    border-radius: 50%;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: #F5EE84;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 50px;
+    box-shadow: 0px 0px 6px;
+    border: none;
+}
+
+.About{
+    margin-left: 97px;
+    max-width: 900px;
+    margin-top: 170px;
+}
+.mini_about{
+    font-size: 100px;
+    color: #F7F197;
+ }
+
+ .lorem{
+    font-size: 24px;
+ }
+
+ .work{
+    margin-left: 97px;
+    max-width: 100%;
+ }
+
+.work_1{
+   margin-left: 92px;
+}
+ 
+.Work_xd{
+    font-size: 100px;
+    color: #F7F197;
+}
+.work_pic1{
+    width: 560px;
+    height: 400px;
+}
+.work_name1{
+    font-size: 24px;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.work_text1{
+    font-size: 18px;
+    font-weight: 400;
+    
+    
+}
+
+.obshak{
+    display: flex;
+}
+
+.contact{
+    font-size: 100px;
+    color: #F7F197;
+    margin-left: 92px;
+    margin-top: 110px;
+}
+.main_cont{
+    display: flex;
+    max-width: 900px;
+    margin-left: 92px;
+}
+
+.cont_text{
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 25px;
+}
