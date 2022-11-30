@@ -27,7 +27,7 @@ max-width: 300px;
 }
 .header_icons{
   display: flex;
-  margin-left: 310px;
+  m
 }
 .header_pic:not(:last-child){
     margin-right: 30px;
